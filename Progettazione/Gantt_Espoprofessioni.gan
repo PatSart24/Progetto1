@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Espoprofessioni" company="IO" webLink="http://" view-date="2017-08-30" view-index="0" gantt-divider-location="286" resource-divider-location="300" version="2.8.5" locale="it_CH">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="159" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="62" order="1"/>
+        <field id="tpd5" name="Data di fine" width="61" order="2"/>
+        <option id="color.recent"><![CDATA[#33ffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="1" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"/>
+        <date year="" month="1" date="2" type="HOLIDAY"/>
+        <date year="" month="8" date="1" type="HOLIDAY"/>
+        <date year="" month="12" date="25" type="HOLIDAY"/>
+        <date year="" month="12" date="26" type="HOLIDAY"/>
+        <date year="2012" month="4" date="6" type="HOLIDAY"/>
+        <date year="2012" month="4" date="8" type="HOLIDAY"/>
+        <date year="2012" month="4" date="9" type="HOLIDAY"/>
+        <date year="2012" month="5" date="17" type="HOLIDAY"/>
+        <date year="2012" month="5" date="27" type="HOLIDAY"/>
+        <date year="2012" month="5" date="28" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="5" name="Fase di analisi" meeting="false" start="2017-09-01" duration="3" complete="0" expand="true"/>
+        <task id="2" name="Progettazione" meeting="false" start="2017-09-22" duration="2" complete="0" expand="true"/>
+        <task id="0" name="Creare la virtuale" color="#8cb6ce" meeting="false" start="2017-09-22" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Installare Apache e Php" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true"/>
+        <task id="8" name="Configurare il webserver" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
+        <task id="7" name="Creare il form" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
+        <task id="12" name="Programmare il form" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
+        <task id="9" name="Testing" meeting="false" start="2017-10-13" duration="2" complete="0" expand="true"/>
+        <task id="10" name="Consegna" meeting="false" start="2017-10-27" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
