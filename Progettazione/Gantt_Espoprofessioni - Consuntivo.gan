@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Espoprofessioni" company="IO" webLink="http://" view-date="2017-08-26" view-index="0" gantt-divider-location="248" resource-divider-location="300" version="2.8.5" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Espoprofessioni" company="IO" webLink="http://" view-date="2017-08-31" view-index="0" gantt-divider-location="248" resource-divider-location="300" version="2.8.5" locale="it">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nome" width="136" order="0"/>
@@ -70,30 +70,30 @@
             <task id="36" name="Design architettura web" meeting="false" start="2017-09-22" duration="1" complete="0" expand="true"/>
             <task id="40" name="Analisi formato dati" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="42" name="Implementazione" color="#8cb6ce" meeting="false" start="2017-10-06" duration="3" complete="0" expand="true">
-            <task id="43" name="Creare la virtuale" color="#8cb6ce" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
-            <task id="44" name="Installare Apache" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
-            <task id="50" name="Installare Php" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
-            <task id="45" name="Configurare il webserver" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
-            <task id="46" name="Creare il form" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
-            <task id="55" name="Miglioramento stile" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
-            <task id="51" name="Controllo Dati" meeting="false" start="2017-10-13" duration="2" complete="0" expand="true"/>
-            <task id="52" name="Raccolta Dati" color="#8cb6ce" meeting="false" start="2017-10-13" duration="2" complete="0" expand="true"/>
-            <task id="54" name="Tabella Riassuntiva" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
-            <task id="63" name="Caricament su Infomaniak" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
-            <task id="56" name="Sito funzionante su Infomaniak" color="#8cb6ce" meeting="true" start="2017-10-27" duration="0" complete="0" expand="true"/>
+        <task id="42" name="Implementazione" color="#8cb6ce" meeting="false" start="2017-09-29" duration="3" complete="0" expand="true">
+            <task id="43" name="Creare la virtuale" color="#8cb6ce" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true"/>
+            <task id="44" name="Installare Apache" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true"/>
+            <task id="50" name="Installare Php" meeting="false" start="2017-09-29" duration="2" complete="0" expand="true"/>
+            <task id="45" name="Configurare il webserver" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
+            <task id="46" name="Creare il form" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
+            <task id="55" name="Miglioramento stile" meeting="false" start="2017-10-06" duration="1" complete="0" expand="true"/>
+            <task id="51" name="Controllo Dati" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
+            <task id="52" name="Raccolta Dati" color="#8cb6ce" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
+            <task id="54" name="Tabella Riassuntiva" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
+            <task id="63" name="Caricament su Infomaniak" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
+            <task id="56" name="Sito funzionante su Infomaniak" color="#8cb6ce" meeting="true" start="2017-10-13" duration="0" complete="0" expand="true"/>
         </task>
-        <task id="9" name="Testing" color="#8cb6ce" meeting="false" start="2017-10-06" duration="3" complete="0" expand="true">
-            <task id="61" name="Test VM Apache e Php" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
-            <task id="58" name="Test performance con molti record" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
-            <task id="59" name="Test velocità inserimento" color="#8cb6ce" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
-            <task id="65" name="Test Controlli" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
-            <task id="64" name="Test su Infomaniak" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
+        <task id="9" name="Testing" color="#8cb6ce" meeting="false" start="2017-09-29" duration="4" complete="0" expand="true">
+            <task id="61" name="Test VM Apache e Php" meeting="false" start="2017-09-29" duration="2" complete="0" expand="true"/>
+            <task id="58" name="Test performance con molti record" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
+            <task id="59" name="Test velocità inserimento" color="#8cb6ce" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
+            <task id="65" name="Test Controlli" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
+            <task id="64" name="Test su Infomaniak" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true"/>
             <task id="66" name="Beta Tester" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
         </task>
         <task id="10" name="Consegna Progetto e Documentazione" color="#ff0000" meeting="true" start="2017-10-27" duration="0" complete="0" priority="4" expand="true"/>
         <task id="25" name="Documentazione" meeting="false" start="2017-09-01" duration="9" complete="0" expand="true"/>
-        <task id="67" name="Presentazione" meeting="false" start="2017-10-20" duration="2" complete="0" expand="true"/>
+        <task id="67" name="Presentazione" meeting="false" start="2017-09-01" duration="9" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
